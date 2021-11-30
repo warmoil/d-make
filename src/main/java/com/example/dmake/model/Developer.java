@@ -1,6 +1,7 @@
 package com.example.dmake.model;
 
 import com.example.dmake.code.StatusCode;
+import com.example.dmake.dto.CreateDeveloper;
 import lombok.*;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -39,5 +40,7 @@ public class Developer {
 
     @LastModifiedDate
     private LocalDateTime updateAt;
+
+ 
 
 }

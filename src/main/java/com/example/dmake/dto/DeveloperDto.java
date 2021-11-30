@@ -10,6 +10,7 @@ import lombok.*;
 @Getter
 @Setter
 @Builder
+@ToString
 public class DeveloperDto {
     private DeveloperLevel developerLevel;
     private DeveloperSkillType developerSkillType;
